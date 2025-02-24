@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-lexendDeca: "Lexend Deca", serif;
+  --font-bigShoulders: "Big Shoulders Display", serif;
+  --text-base: 15px;
+
+  --color-bright-orange: hsl(31, 77%, 52%);
+  --color-dark-cyan: hsl(184, 100%, 22%);
+  --color-very-dark-cyan: hsl(179, 100%, 13%);
+  --color-transparent-white: hsla(0, 0%, 100%, 0.75); /*(paragraphs)*/
+  --color-very-light-gray: hsl(0, 0%, 95%); /*(background, headings, buttons)*/
+  --leading-card: 25px;
+}
